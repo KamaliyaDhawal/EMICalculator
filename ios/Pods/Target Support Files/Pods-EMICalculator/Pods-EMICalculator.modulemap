@@ -1,0 +1,6 @@
+module Pods_EMICalculator {
+  umbrella header "Pods-EMICalculator-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+module Pods_EMICalculator_EMICalculatorTests {
+  umbrella header "Pods-EMICalculator-EMICalculatorTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

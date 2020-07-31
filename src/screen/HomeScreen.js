@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, StyleSheet, SafeAreaView, TextInput, Keyboard, TouchableWithoutFeedback, TouchableOpacity } from 'react-native';
+import { View, Text, StyleSheet, TextInput, Keyboard, TouchableWithoutFeedback, TouchableOpacity } from 'react-native';
 
 import Slider from '@react-native-community/slider';
 import RNPickerSelect from 'react-native-picker-select';
@@ -118,6 +118,7 @@ const HomeScreen = ({ navigation }) => {
                         { label: 'Month(s)', value: 'month' },
                     ]}
                 />
+
                 <TouchableOpacity style={{
                     ...styles.input,
                     ...styles.buttonStyle
@@ -125,7 +126,6 @@ const HomeScreen = ({ navigation }) => {
                     onPress={
                         () => {
                             calculate();
-                            // navigation.navigate('Result')
                         }
                     }
                 >
